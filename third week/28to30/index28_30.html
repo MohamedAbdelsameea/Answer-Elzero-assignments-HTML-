@@ -1,0 +1,111 @@
+<doctype html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="lables assinment to make ">
+        <meta name="copyright" content="Mohamed company" />
+        <meta name="author" content="Mohamed Abdelsamea">
+        <title>assinmet 28to 30</title>
+        <style></style>
+        <script></script>
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+        <form action="" method="get">
+            <div>
+                <label>User name</label>
+                <input type="text" autofocus minlength="5" maxlength="20" required name="user">
+                <hr>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" value="osama@msn.ss" readonly name="email">
+            </div>
+            <div>
+                <label hidden>Token</label>
+                <input hidden type="text" value="b92f1fc2fce391ad7af633723afd3055" name="token">
+            </div>
+            <hr>
+            <h2>Skills</h2>
+
+            <div>
+                <div>
+                    <input id="pr" type="checkbox" name="job" value="problem solving">
+                    <label for="pr">Problem solving</label>
+                </div>
+                <div>
+                    <input id="lt" type="checkbox" name="job" valre="logical thinking">
+                    <label for="lt">logical thinking</label>
+                </div>
+                <div>
+                    <input id="Ad" type="checkbox" name="job" value="advanced search">
+                    <label for="Ad">Advanced Search</label><br>
+                </div>
+                <div>
+                    <input id="an" type="checkbox" name="job" value="analyst">
+                    <label for="an">Analysis</label>
+                </div>
+                <div>
+                    <input id="pl" type="checkbox" name="job" value="planing">
+                    <label for="pl">planing</label>
+                </div>
+            </div>
+            <hr>
+            <h2>Job</h2>
+            <div>
+                <div>
+
+                    <input id="fd" type="radio" name="Skills" value="front end developer">
+                    <label for="fd">front end developer</label>
+                </div>
+                <div>
+                    <input id="Back" type="radio" name="Skills" value="back end developer">
+                    <label for="Back">Back end developer</label>
+
+                </div>
+                <div>
+                    <input id="business" type=radio name="Skills" value="business">
+                    <label for="business">business</label>
+                </div>
+                <div>
+                    <input id="ana" type="radio" name="Skills" value="analyst">
+                    <label for="ana">Analyst</label>
+                </div>
+                <div>
+                    <input id="pm" type="radio" name="Skills" value="project manger">
+                    <label for="pm">project manger</label>
+                </div>
+                <div>
+                    <input id="sm" type="radio" name="Skills" value="scurm">
+                    <label for="sm">scrum manger</label>
+                </div>
+                <hr>
+            </div>
+            <div>
+                <label for="book">Chose Book: </label>
+                <select id="book" name="book" value="book">
+                    <optgroup label="PHP">
+                        <option value="1">v5.0</option>
+                        <option value="2">v7.0</option>
+                        <option value="3">v8.0</option>
+                    </optgroup>
+                    <optgroup label="Paython">
+                        <option value="4">v3.0</option>
+                        <option value="5">v4.0</option>
+                        <option value="6">v4.2</option>
+                    </optgroup>
+                </select>
+                <br>
+                <textarea palceholder="Write Here Why You Want To Learn Programming" id="tar" name="brief " cols="100"
+                    rows="40" value="breif"> </textarea>
+            </div>
+            <div>
+                <input type="reset" value="Empty">
+                <input type="submit" value="send">
+            </div>
+        </form>
+    </body>
+
+    </html>

@@ -1,0 +1,12 @@
+إجابة السؤال الاول:
+ما هي العناصر الموجودة في لغة ال اhtml ?
+1-  Header
+2- Nav
+3-Main
+4-Aside
+5-Picture
+6-Figure
+7-footer
+8-figcaption
+9-section
+10-article
